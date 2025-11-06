@@ -22,9 +22,9 @@ public:
 };
 
 int main() {
-    Book book1;          // Create a Book object
-    Book *ptr;           // Declare a pointer to Book
-    ptr = &book1;        // Store address of book1 in pointer
+    Book book1;      
+    Book *ptr;         
+    ptr = &book1;    
 
     // Access methods using pointer
     ptr->setDetails("The C++ Programming Language", "Bjarne Stroustrup");
