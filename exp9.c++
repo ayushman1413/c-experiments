@@ -29,21 +29,18 @@ public:
     }
 };
 
-// Derived class for Circle, inherits from Shape.
-// Overrides displayArea to calculate circle area.
+// Derived class for Circle
 class Circle : public Shape {
-    float r;  // Radius of the circle.
+    float r;
 public:
-    // Constructor to initialize radius.
+    // Constructor 
     Circle(float x) { r = x; }
-    // Override base class method to display circle area.
     void displayArea() {
         cout << "Area of Circle = " << 3.14 * r * r << endl;
     }
 };
 
-// Main function to demonstrate polymorphism.
-// Creates objects of Rectangle and Circle, uses base class pointer to call displayArea.
+// Main function
 int main() {
     Shape* s;  
     Rectangle rect(5, 3);  
