@@ -8,19 +8,19 @@ T findLargest(T a, T b) {
 }
 
 int main() {
-    // Test with int
+    //int
     int int1 = 10, int2 = 25;
     cout << "Largest (int): " << findLargest(int1, int2) << endl;
 
-    // Test with float
+    // float
     float float1 = 3.5f, float2 = 2.8f;
     cout << "Largest (float): " << findLargest(float1, float2) << endl;
 
-    // Test with double
+    // double
     double double1 = 5.123, double2 = 9.456;
     cout << "Largest (double): " << findLargest(double1, double2) << endl;
 
-    // Test with char
+    //  char
     char char1 = 'A', char2 = 'Z';
     cout << "Largest (char): " << findLargest(char1, char2) << endl;
 
