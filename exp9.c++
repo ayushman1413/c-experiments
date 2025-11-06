@@ -45,12 +45,12 @@ public:
 // Main function to demonstrate polymorphism.
 // Creates objects of Rectangle and Circle, uses base class pointer to call displayArea.
 int main() {
-    Shape* s;  // Pointer to base class for polymorphic behavior.
-    Rectangle rect(5, 3);  // Create rectangle with length 5, width 3.
-    Circle cir(4);  // Create circle with radius 4.
-    s = &rect;  // Point to rectangle.
-    s->displayArea();  // Calls Rectangle's displayArea due to polymorphism.
-    s = &cir;  // Point to circle.
-    s->displayArea();  // Calls Circle's displayArea due to polymorphism.
+    Shape* s;  
+    Rectangle rect(5, 3);  
+    Circle cir(4); 
+    s = &rect;  
+    s->displayArea();  
+    s = &cir;  
+    s->displayArea();  
     return 0;
 }
