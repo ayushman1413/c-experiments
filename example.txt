@@ -1,0 +1,2 @@
+This is a C++ file I/O example.
+File handling includes reading and writing operations.
