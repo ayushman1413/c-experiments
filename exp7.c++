@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class AccessDemo {
 private:
     int privateVar;
@@ -17,14 +16,12 @@ public:
         cout << "Private Variable = " << privateVar << endl;
     }
 };
-
 class Derived : public AccessDemo {
 public:
     void showProtected() {
         cout << "Protected Variable = " << protectedVar << endl;
     }
 };
-
 int main() {
     AccessDemo obj;
     Derived d;
@@ -33,3 +30,5 @@ int main() {
     d.showProtected();
     return 0;
 }
+
+

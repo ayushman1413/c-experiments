@@ -1,0 +1,2 @@
+This is a file created with exception handling.
+C++ file I/O error handling demo.
